@@ -480,7 +480,6 @@ void BP_GetStats(SIM_stats* curStats) {
         curStats->size = bp->historyTable->arraySize * (1 + bp->tagSize + 30 + bp->historySize) + bp->fsmTable->fsmRowNum * 2 * bp->fsmTable->fsmColNum;
     }
     if (bp->isGlobalHist && bp->isGlobalTable) {
-        //curStats->size = bp->historyTable->arraySize * (1 + bp->tagSize + 30 + bp->historySize) + 2 * bp->fsmTable->fsmColNum;
         curStats->size = bp->historyTable->arraySize * (1 + bp->tagSize + 30) + bp->historySize + 2 * bp->fsmTable->fsmColNum;
     }
     if (!bp->isGlobalHist && bp->isGlobalTable) {
