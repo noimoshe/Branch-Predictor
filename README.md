@@ -14,5 +14,8 @@ Updates predictor's state according to last prediction. <br /><br />
 4.**BP_GetStats**<br />
 
 # Fsm:
-2 bits encode one of 4 states <br />
+2 bits encode one of 4 states: <br />
 <img src="https://github.com/noimoshe/Branch-Predictor/blob/main/fsmStates.JPG">
+
+# BTB structure:
+
