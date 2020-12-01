@@ -10,7 +10,7 @@ Gets current pc. If pc is a branch command, returns jump prediction - true for T
 In case of Teken prediction, dst parameter will contain the target pc (which was calculated).<br />
 In case of Not Taken or a non-branch command, dst will contain pc+4.<br /><br />
 3.**BP_update**<br />
-Updates predictor's state according to last prediction.
+Updates predictor's state according to last prediction. <br /><br />
 4.**BP_GetStats**<br />
 
 # Fsm:
