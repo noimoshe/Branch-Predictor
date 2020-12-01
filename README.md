@@ -13,5 +13,5 @@ In case of Not Taken or a non-branch command, dst will contain pc+4.<br /><br />
 Updates predictor's state according to last prediction.
 4.**BP_GetStats**<br />
 
-# Fsm for prediction:
+# Fsm: 2 bits encode one of 4 states
 <img src="https://github.com/noimoshe/Branch-Predictor/blob/main/fsmStates.JPG">
