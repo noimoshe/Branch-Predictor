@@ -8,4 +8,4 @@ Includes 4 main functions:<br />
 3.**BP_update**<br /><br />
 4.**BP_GetStats**<br /><br />
 
-![ScreenShot] fsmStates.jpg
+![ScreenShot] https://github.com/noimoshe/Branch-Predictor/blob/main/fsmStates.JPG
